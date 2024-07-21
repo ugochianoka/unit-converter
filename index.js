@@ -24,7 +24,7 @@ function convert() {
             let poundConvRounded = poundConv.toFixed(3)
             let kiloConv = num.value/2.204
             let kiloConvRounded = kiloConv.toFixed(3)
-            p3.textContent = `${num.value} liters = ${poundConvRounded} pounds | ${num.value} pounds = ${kiloConvRounded} kilos`
+            p3.textContent = `${num.value} kilos = ${poundConvRounded} pounds | ${num.value} pounds = ${kiloConvRounded} kilos`
             massEl.append(p3)
         }
         
